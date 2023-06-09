@@ -24,6 +24,7 @@ p {
     line-height: 2.025rem;
     font-size: 17px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 h3 {
@@ -81,9 +82,15 @@ header {
     border-bottom: 1px solid rgba(170, 194, 216, 0.2);
 }
 
-.hero .col-lg-6 {
-    padding: 1em 2em;
+.hero .col-lg-7 {
+    padding: 2em 2em;
 }
+
+.hero.col-lg-5 {
+    padding: 2em 1em;
+}
+
+
 
 .hero {
     padding: 2em 0;
@@ -124,12 +131,19 @@ footer hr {
 
     }
 
-    .hero .col-lg-6 {
+    .hero .col-lg-7,
+    .hero .col-lg-5 {
         padding: 2em 5px 2em 5px;
     }
 
     .portfolioBox {
-        padding: 1em 0;
-        margin: 0;
+        padding: 1em 0em;
+        margin: 1em;
+    }
+
+    .portfolioBox p,
+    .portfolioBox h4,
+    .portfolioBox .btn {
+        margin: 1em;
     }
 }
