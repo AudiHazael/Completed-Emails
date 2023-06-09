@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: url('/Images/daniel-leone-v7daTKlZzaw-unsplash.jpg') center center/cover no-repeat fixed;
+    opacity: .9;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+    color: rgba(240, 248, 255, 0.89);
+    line-height: 2.025rem;
+    font-size: 17px;
+
+}
+
+h3 {
+    line-height: 2.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+    line-height: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+a:hover {
+    color: #9cb2d8d8 !important;
+    text-decoration: none;
+    transform: scale(1.05) !important;
+    transition: ease 1s;
+}
+
+button.btn-outline-primary,
+.btn-md {
+    background-color: #6c9cf0;
+    border: none;
+    border-radius: 5px;
+    color: #f1f1f1;
+    padding: .5em 1em;
+    max-width: 100%;
+}
+
+button.btn-outline-primary:hover,
+.btn-md:hover {
+    background-color: #0d4e996c;
+    border: none;
+    color: #f1f1f1;
+
+    transform: scale(1.12);
+    transition: ease 1s;
+}
+
+.socials li {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    color: #a5c6eb6c;
+    width: 18px;
+}
+
+.socials li:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+}
+
+header {
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(170, 194, 216, 0.2);
+}
+
+.hero .col-lg-6 {
+    padding: 1em 2em;
+}
+
+.hero {
+    padding: 2em 0;
+}
+
+.portfolioBox {
+    border-radius: 10px;
+    margin-top: 2em;
+    padding: 1em 2em;
+
+    background: linear-gradient(50deg,
+            rgba(170, 194, 216, 0.2) 12%,
+            rgba(255, 255, 255, 0.1) 77%);
+    box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+}
+
+
+footer {
+    padding-top: 4em;
+    border-top: 1px solid rgba(170, 194, 216, 0.2);
+}
+
+footer p {
+    font-size: .8rem;
+}
+
+footer hr {
+    width: 100%;
+    height: 4px;
+}
